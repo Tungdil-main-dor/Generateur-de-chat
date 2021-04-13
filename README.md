@@ -1,15 +1,15 @@
-****About****
+# About
 
 This script generates new images of cats using the technique of generative adversarial networks (GAN), as described in the paper by Goodfellow et al. The images are enhanced with the laplacian pyramid technique from Denton and Soumith Chintala et. al., implemented as a single G (generator) as described in the blog post by Anders Boesen Lindbo Larsen and Søren Kaae Sønderby. Most of the code is based on facebook's eyescream project. The script also uses code from other repositories for spatial transformers, weight initialization and LeakyReLUs.
 Images
 
 
-
-***HOW TO :***
+## HOW TO :
 
 - 1:  Donwload .zip file and unzip it OR directly downloads .html and .js file
 - 2:  Open Generateur de chat.html with google chrome
 - 3:  Enjoys all thoose marvellous Cat Generated rightfor u <3
+
 
 
 
@@ -18,11 +18,6 @@ Images
     Model G32up, color: th train.lua --D_iterations=2. This model is currently not the default for G, i.e. must be manually activated in models.lua.
     Model G32up, grayscale: th train.lua --colorSpace="y". See above.
     Model G32up-c, color: th train.lua. This model is currently the default model/architecture for G.
-
-The difference between model G32up and G32up-c is simply that G32up-c is about one layer deeper and has more convolution kernels.
-Model G32up-c (currently default)
-
-64 generated 32x32 cat images, rated by D as the best images among 1024 randomly generated ones. (Model G32up-c)
 
 
 
